@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Theme\css\style.css" />
+    <None Remove="Theme\home.html" />
+    <None Remove="Theme\product-details.html" />
+    <None Remove="Theme\product-list.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Theme\css\style.css" />
+    <Compile Include="Theme\product-list.html" />
+    <Compile Include="Theme\home.html" />
+    <Compile Include="Theme\product-details.html" />
+  </ItemGroup>
+
+</Project>
